@@ -1,0 +1,50 @@
+html {
+  background: rgb(197, 197, 238);
+}
+
+body {
+  background: white;
+  max-width: 1000px;
+  /* width: 1000px; */
+  margin: 0 auto;
+  font-family: "Barlow", sans-serif;
+  color: rgb(49, 46, 46);
+}
+
+main {
+  /* target/content = result  */
+  /* 680/1000 = 68% */
+  /* width: 680px; */
+  /* width: 68%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.product {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  /* width: 210px; */
+  width: 30%;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.button {
+  padding: 10px;
+  display: inline-block;
+}
+
+.button:last-of-type {
+  background: #0e69e9;
+  color: white;
+}
