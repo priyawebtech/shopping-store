@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h2>All Items:</h2>
+    <main>
+      
+      <div class="product">
+        <a href="product-detail.html">
+          <img
+            src="./images/building pick.jpg"
+            alt="Alexa"
+            title="Alexa"
+            width="300px"
+          />
+        </a>
+        <h4>
+          <a href="product-detail.html"
+            >Alexa <i class="fa-solid fa-music"></i> </i
+          ></a>
+        </h4>
+        <p>$124.98</p>
+        <p>Alexa wants your life easier and better!</p>
+        <a href="product-detail.html" class="button">More Info</a>
+        <a href="" class="button">Add To Cart</a>
+      </div>
+
+      <div class="product">
+        <img
+          src="./images/mountain pick.jpg"
+          alt="Camera"
+          title="Camera"
+          width="300px"
+        />
+
+        <h4><a href="product-detail.html">Camera <i class="fa-solid fa-camera-retro"></i></a></h4>
+        <p>$479.00</p>
+        <p>Capture the moment,share the magic.!</p>
+        <a href="product-detail.html" class="button">More Info</a>
+        <a href="" class="button">Add To Cart</a>
+      </div>
+
+      <div class="product">
+        <img
+          src="./images/pick of animal.jpg"
+          alt="Headset"
+          title="Headset"
+          width="300px"
+        />
+
+        <h4><a href="product-detail.html">Headset<i class="fa-solid fa-headset"></i></a></h4>
+        <p>$248.70</p>
+        <p>Life sounds better with headphones on!</p>
+        <a href="product-detail.html" class="button">More Info</a>
+        <a href="" class="button">Add To Cart</a>
+      </div>
+
+      <div class="product">
+        <img
+          src="./images/sky view.jpg"
+          alt="Laptop"
+          title="Laptop"
+          width="300px"
+        />
+
+        <h4><a href="product-detail.html">Laptop<i class="fa-solid fa-laptop"></i></a></h4>
+        <p>$1000.00</p>
+        <p>Empowering dreams with every click. ...</p>
+        <a href="product-detail.html" class="button">More Info</a>
+        <a href="" class="button">Add To Cart</a>
+      </div>
+
+      <div class="product">
+        <img src="./images/taz pick.jpg" alt="Phone" title="Phone" width="300px" />
+
+        <h4><a href="product-detail.html">Phone<i class="fa-solid fa-mobile-screen-button"></i></a></h4>
+        <p>$299.00</p>
+        <p>Buy mobile phones at best prices.</p>
+        <a href="product-detail.html" class="button">More Info</a>
+        <a href="" class="button">Add To Cart</a>
+      </div>
+
+      <div class="product">
+        <img src="./images/tree pick.jpg" alt="Tv" title="TV" width="300px" />
+
+        <h4><a href="product-detail.html">TV<i class="fa-solid fa-tv"></i></a></h4>
+        <p>$1000.00</p>
+        <p>Buy televisions on India's best online shopping site.</p>
+        <a href="product-detail.html" class="button">More Info</a>
+        <a href="" class="button">Add To Cart</a>
+      </div>
+    </main>
+  </body>
+</html>
